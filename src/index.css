@@ -6,7 +6,12 @@
 
 @layer base {
   body {
-    @apply font-poppins;
+    @apply font-poppins bg-[url('/Background-App.png')] bg-cover bg-center bg-no-repeat;
+    min-height: 100vh;
+  }
+
+  .headers {
+    @apply bg-[url('/Headers-Background.png')] bg-cover bg-center h-32 sm:h-52 lg:h-64;
   }
   #root {
     @apply p-0 m-0 box-border;

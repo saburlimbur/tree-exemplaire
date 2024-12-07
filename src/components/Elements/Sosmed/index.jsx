@@ -26,7 +26,7 @@ const SocialMedia = () => {
     },
   ];
   return (
-    <div className="flex gap-5 items-center justify-center">
+    <div className="flex gap-5 items-center justify-center pt-36">
       {socialLogos.map((item) => (
         <div key={item.name}>
           <Link to={item.link} target="_blank">
